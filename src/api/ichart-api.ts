@@ -227,6 +227,16 @@ export interface IChartApi {
 	 * ```
 	 */
 	unsubscribeCrosshairMove(handler: MouseEventHandler): void;
+	
+	/**
+	 * Set crosshair programmatically
+	 *
+	 * @example
+	 * ```js
+	 * chart.setCrosshairXY(xCoordinate,yCoordinate,isVisible)
+	 * ```
+	 */
+	setCrosshairXY(x: number,y: number,visible: boolean): void;
 
 	/**
 	 * Returns API to manipulate a price scale.
