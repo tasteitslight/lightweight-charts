@@ -25,7 +25,7 @@ The Lightweight Charts™ library is the best choice for you if you want to disp
 It is the best choice for you if you want to replace static image charts with interactive ones.
 The size of the library is close to static images but if you have dozens of image charts on a web page then using this library can make the size of your web page smaller.
 
-## Installing
+## Installing 
 
 ### es6 via npm
 
